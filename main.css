@@ -17,7 +17,7 @@ article {
     padding: 20px 0;
 }
 
-h1 {
+#title {
     text-align: center;
     font-size: 4em;
     font-style: bold;
@@ -31,7 +31,7 @@ h1 {
     color: gray;
 }
 
-figure {
+#img-div {
     border: 1px solid rgb(214, 214, 214);
     border-radius: 4px;
     padding: 5px;
@@ -39,12 +39,13 @@ figure {
     padding-bottom: 10px;
 }
 
-img {
+#image {
+    display: block; 
     max-width: 100%;
     height: auto;
 }
 
-figcaption {
+#img-caption {
     font-size: 0.9em;
     text-align: center;
 }
