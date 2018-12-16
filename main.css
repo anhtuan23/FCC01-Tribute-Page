@@ -1,9 +1,78 @@
-img{
+#container{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+main{
+    min-width: 70vw;
+    background-color: #eee;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    max-width: 700px;
+    padding: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    font-style: bold;
+    color: rgb(36, 36, 36);
+}
+
+#summary {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5em;
+    color: gray;
+}
+
+figure {
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+img {
     max-width: 100%;
     height: auto;
 }
 
-article{
-    max-width: 700px;
-    margin: 0 auto;
+figcaption {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+q {
+    font-size: 2em;
+    color: rgb(73, 73, 73);
+}
+
+cite {
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#read-more{
+    font-weight:bold; 
+    font-size: 1.2em;
+    color: rgb(48, 48, 48);
+}
+
+hr{
+    color: rgb(70, 70, 70);
+    margin: 30px 0;
+}
+
+footer{
+    text-align: center;
+    color: rgb(70, 70, 70);
 }
